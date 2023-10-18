@@ -1,33 +1,33 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4000/juanmmaidana.github.io/</id>
+  <id>http://localhost:4000/grupo6IA.github.io/</id>
   <title>ML Portfolio</title>
   <subtitle>An ML Portfolio of varius study projects.</subtitle>
-  <updated>2023-10-15T19:43:08-03:00</updated>
+  <updated>2023-10-18T18:07:29-03:00</updated>
   <author>
-    <name>Juan Martín Maidana</name>
-    <uri>http://localhost:4000/juanmmaidana.github.io/</uri>
+    <name>Grupo 6</name>
+    <uri>http://localhost:4000/grupo6IA.github.io/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4000/juanmmaidana.github.io/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/grupo6IA.github.io/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://localhost:4000/juanmmaidana.github.io/"/>
+    href="http://localhost:4000/grupo6IA.github.io/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
-  <rights> © 2023 Juan Martín Maidana </rights>
-  <icon>/juanmmaidana.github.io/assets/img/favicons/favicon.ico</icon>
-  <logo>/juanmmaidana.github.io/assets/img/favicons/favicon-96x96.png</logo>
+  <rights> © 2023 Grupo 6 </rights>
+  <icon>/grupo6IA.github.io/assets/img/favicons/favicon.ico</icon>
+  <logo>/grupo6IA.github.io/assets/img/favicons/favicon-96x96.png</logo>
 
 
   
   <entry>
     <title>Stellar Classification - SDSS17</title>
-    <link href="http://localhost:4000/juanmmaidana.github.io/posts/stellar/" rel="alternate" type="text/html" title="Stellar Classification - SDSS17" />
+    <link href="http://localhost:4000/grupo6IA.github.io/posts/stellar/" rel="alternate" type="text/html" title="Stellar Classification - SDSS17" />
     <published>2023-10-09T00:00:00-03:00</published>
   
     <updated>2023-10-09T00:00:00-03:00</updated>
   
-    <id>http://localhost:4000/juanmmaidana.github.io/posts/stellar/</id>
-    <content src="http://localhost:4000/juanmmaidana.github.io/posts/stellar/" />
+    <id>http://localhost:4000/grupo6IA.github.io/posts/stellar/</id>
+    <content src="http://localhost:4000/grupo6IA.github.io/posts/stellar/" />
     <author>
       <name>Juan Martin Maidana</name>
     </author>
@@ -57,13 +57,13 @@ Since I was a child, one of the topics I’ve always been fascinated by is space
   
   <entry>
     <title>Wine - Predicting Class</title>
-    <link href="http://localhost:4000/juanmmaidana.github.io/posts/wine/" rel="alternate" type="text/html" title="Wine - Predicting Class" />
+    <link href="http://localhost:4000/grupo6IA.github.io/posts/wine/" rel="alternate" type="text/html" title="Wine - Predicting Class" />
     <published>2023-10-04T00:00:00-03:00</published>
   
     <updated>2023-10-04T00:00:00-03:00</updated>
   
-    <id>http://localhost:4000/juanmmaidana.github.io/posts/wine/</id>
-    <content src="http://localhost:4000/juanmmaidana.github.io/posts/wine/" />
+    <id>http://localhost:4000/grupo6IA.github.io/posts/wine/</id>
+    <content src="http://localhost:4000/grupo6IA.github.io/posts/wine/" />
     <author>
       <name>Juan Martin Maidana</name>
     </author>
@@ -93,13 +93,13 @@ This is a wine dataset donated in 1991 with the purpose of testing some IA tools
   
   <entry>
     <title>Titanic - Machine Learning from Disaster</title>
-    <link href="http://localhost:4000/juanmmaidana.github.io/posts/titanic/" rel="alternate" type="text/html" title="Titanic - Machine Learning from Disaster" />
+    <link href="http://localhost:4000/grupo6IA.github.io/posts/titanic/" rel="alternate" type="text/html" title="Titanic - Machine Learning from Disaster" />
     <published>2023-09-26T00:00:00-03:00</published>
   
     <updated>2023-09-26T00:00:00-03:00</updated>
   
-    <id>http://localhost:4000/juanmmaidana.github.io/posts/titanic/</id>
-    <content src="http://localhost:4000/juanmmaidana.github.io/posts/titanic/" />
+    <id>http://localhost:4000/grupo6IA.github.io/posts/titanic/</id>
+    <content src="http://localhost:4000/grupo6IA.github.io/posts/titanic/" />
     <author>
       <name>Juan Martin Maidana</name>
     </author>
