@@ -8,13 +8,11 @@ order: 5
 ![AboutBig](/assets/img/favicons/mlgod.jpg){: width="972" height="589" .w-50 .right}
 
 
-I'm a student of Software Engineering at the Universidad Católica del Uruguay, currently pursuing a minor in data science. It was during my studies, particularly in the 'Artificial Intelligence' course, that I embarked on creating this portfolio. I saw it as an opportunity to not only learn but also to apply the knowledge I gained, primarily through engaging and insightful Kaggle case studies.
+Somos estudiantes de Ingeniería en Informática en la Universidad Católica del Uruguay, actualmente enfocados en una especialización en ciencia de datos. Fue durante nuestros estudios, específicamente en el curso de 'Inteligencia Artificial', que nos embarcamos en la creación de este portafolio. Lo vimos como una oportunidad no solo para aprender, sino también para aplicar los conocimientos adquiridos, principalmente a través de casos de estudio desafiantes y enriquecedores en Kaggle.
 
-The world of data science is an area I'm genuinely passionate about. It's a space where I find endless opportunities for exploration and problem-solving. The practical experiences and challenges I've encountered along my journey have solidified my commitment to this field.
+El mundo de la ciencia de datos es un área que nos apasiona genuinamente. Es un espacio donde encontramos infinitas oportunidades de exploración y resolución de problemas. Las experiencias prácticas y los desafíos que hemos encontrado en nuestro camino han solidificado nuestro compromiso con este campo.
 
+Somos entusiastas dedicados a los datos en un viaje continuo de exploración y aprendizaje dentro del ámbito del aprendizaje automático, todo orquestado de manera fluida con Python y RapidMiner. Nuestro portafolio sirve como testamento de nuestro enfoque práctico, donde abordamos casos de estudio del mundo real para analizar e implementar diversos modelos de aprendizaje automático.
 
-I am a dedicated data enthusiast on a continuous journey of exploration and learning within the realm of machine learning, all seamlessly orchestrated with Python. My portfolio serves as a testament to my hands-on approach, where I tackle real-world case studies to analyze and implement various machine learning models.
+Nuestro objetivo final es continuar abrazando nuevos desafíos y emocionantes proyectos, aprender de cada experiencia y trabajar activamente hacia la resolución de problemas del mundo real a través del análisis de datos y el aprendizaje automático.
 
-My expertise spans across the entirety of the machine learning process, from data visualization to model testing and learning. I have delved into diverse areas, encompassing techniques for handling outliers, feature selection, and data resampling, leveraging Python's capabilities. I have also explored various methods to assess attribute correlations and tackle imbalanced data, both within attributes and labels, all through Python.
-
-My ultimate goal is to continue embracing new challenges and exciting projects, learning from each experience, and actively working towards real-world problem-solving through the power of data analysis and machine learning.
