@@ -53,11 +53,11 @@
   
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.2" />
-<meta property="og:title" content="Wine - Predicting Class" />
+<meta property="og:title" content="Vino - Predecir la clase" />
 <meta name="author" content="Juan Martin Maidana" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="Wine - Predicting Class" />
-<meta property="og:description" content="Wine - Predicting Class" />
+<meta name="description" content="Vino - Predecir la clase" />
+<meta property="og:description" content="Vino - Predecir la clase" />
 <link rel="canonical" href="http://localhost:4000/grupo6IA.github.io/posts/wine/" />
 <meta property="og:url" content="http://localhost:4000/grupo6IA.github.io/posts/wine/" />
 <meta property="og:site_name" content="ML Portfolio" />
@@ -68,14 +68,14 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="http://localhost:4000/grupo6IA.github.io/assets/img/favicons/wine/wine2.jpg" />
 <meta name="twitter:image:alt" content="Wine Preview" />
-<meta property="twitter:title" content="Wine - Predicting Class" />
+<meta property="twitter:title" content="Vino - Predecir la clase" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Juan Martin Maidana"},"dateModified":"2023-10-04T00:00:00-03:00","datePublished":"2023-10-04T00:00:00-03:00","description":"Wine - Predicting Class","headline":"Wine - Predicting Class","image":{"alt":"Wine Preview","url":"http://localhost:4000/grupo6IA.github.io/assets/img/favicons/wine/wine2.jpg","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/grupo6IA.github.io/posts/wine/"},"url":"http://localhost:4000/grupo6IA.github.io/posts/wine/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Juan Martin Maidana"},"dateModified":"2023-10-04T00:00:00-03:00","datePublished":"2023-10-04T00:00:00-03:00","description":"Vino - Predecir la clase","headline":"Vino - Predecir la clase","image":{"alt":"Wine Preview","url":"http://localhost:4000/grupo6IA.github.io/assets/img/favicons/wine/wine2.jpg","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/grupo6IA.github.io/posts/wine/"},"url":"http://localhost:4000/grupo6IA.github.io/posts/wine/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
 
-  <title>Wine - Predicting Class | ML Portfolio
+  <title>Vino - Predecir la clase | ML Portfolio
   </title>
 
   <!--
@@ -152,7 +152,7 @@
     <a href="/grupo6IA.github.io/" id="avatar" class="rounded-circle">
       
         
-        <img src="/grupo6IA.github.io/assets/img/favicons/yo2.jpg" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
+        <img src="/grupo6IA.github.io/assets/img/favicons/cdk/iconicon.png" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
       
     </a>
 
@@ -200,6 +200,16 @@
             
 
             <span>ARCHIVES</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+      
+        <li class="nav-item">
+          <a href="/grupo6IA.github.io/teorico/" class="nav-link">
+            <i class="fa-fw fas fa-book-open"></i>
+            
+
+            <span>TEORICO</span>
           </a>
         </li>
         <!-- .nav-item -->
@@ -336,7 +346,7 @@
         
           
             
-              <span>Wine - Predicting Class</span>
+              <span>Vino - Predecir la clase</span>
             
 
           
@@ -1592,7 +1602,7 @@
 
 
 <header>
-  <h1 data-toc-skip>Wine - Predicting Class</h1>
+  <h1 data-toc-skip>Vino - Predecir la clase</h1>
 
   <div class="post-meta text-muted">
     <!-- published date -->
@@ -1671,7 +1681,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="2058 words"
+  title="2087 words"
 >
   <em>11 min</em> read</span>
 
@@ -1682,33 +1692,33 @@
 </header>
 
 <div class="content">
-  <h1 id="wine---predicting-class">Wine - Predicting Class</h1>
+  <h1 id="vino---predecir-la-clase">Vino - Predecir la clase</h1>
 
-<p>This is a wine dataset donated in 1991 with the purpose of testing some IA tools, it has the objective of determinate the origin of the wines using a chemical analysis. With 178 instances and 13 features it contains the results of a chemical analysis of wines grown in the same region in Italy but derived from three different cultivars. The analysis determined the quantities of 13 constituents found in each of the three types of wines. Originally, the dataset had around 30 variables, but for some reason, only the 13-dimensional version is available. Unfortunately, the list of the 30 variables is lost, and it’s unclear which 13 variables are included in this version.</p>
+<p>En esta ocación se trata de un conjunto de datos sobre vinos donado en 1991 con el fin de probar algunas herramientas de AI, cuyo objetivo es determinar el origen de los vinos mediante un análisis químico. Con 178 instancias y 13 características, contiene los resultados de un análisis químico de vinos cultivados en la misma región de Italia pero derivados de tres viñedos diferentes. El análisis determinó las cantidades de 13 componentes presentes en cada uno de los tres tipos de vino. Originalmente, el conjunto de datos tenía unas 30 variables, pero, por alguna razón, sólo está disponible la versión de 13 dimensiones.</p>
 
 <h2 id="metadata-dataset"><span class="me-2">Metadata dataset</span><a href="#metadata-dataset" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
 <ul>
-  <li>Alcohol: The alcohol content in the wine.</li>
-  <li>Malic Acid: The amount of malic acid in the wine, a type of organic acid.</li>
-  <li>Ash: The ash content in the wine.</li>
-  <li>Alcalinity of Ash: The alkalinity of the ash in the wine.</li>
-  <li>Magnesium: The amount of magnesium in the wine.</li>
-  <li>Total Phenols: The total phenolic content in the wine.</li>
-  <li>Flavanoids: The concentration of flavonoids, a type of plant pigment, in the wine.</li>
-  <li>Nonflavanoid Phenols: The concentration of non-flavonoid phenolic compounds in the wine.</li>
-  <li>Proanthocyanins: The concentration of proanthocyanins, a type of flavonoid, in the wine.</li>
-  <li>Color Intensity: The intensity of color in the wine.</li>
-  <li>Hue: The hue or color shade of the wine.</li>
-  <li>OD280/OD315 of Diluted Wines: The optical density of diluted wines, a measure of color density.</li>
-  <li>Proline: The concentration of proline, an amino acid, in the wine.</li>
+  <li>Alcohol: El contenido de alcohol en el vino.</li>
+  <li>Malic Acid: La cantidad de ácido málico en el vino, un tipo de ácido orgánico.</li>
+  <li>Ash: Contenido de cenizas del vino.</li>
+  <li>Alcalinity of Ash: Alcalinidad de la ceniza del vino.</li>
+  <li>Magnesium: La cantidad de magnesio en el vino.</li>
+  <li>Total Phenols: El contenido total de fenoles en el vino.</li>
+  <li>Flavanoids: La concentración de flavonoides, un tipo de pigmento vegetal, en el vino.</li>
+  <li>Nonflavanoid Phenols: La concentración de compuestos fenólicos no flavonoides en el vino.</li>
+  <li>Proanthocyanins: La concentración de proantocianinas, un tipo de flavonoide, en el vino.</li>
+  <li>Color Intensity: La intensidad del color del vino.</li>
+  <li>Hue: La tonalidad o matiz de color del vino.</li>
+  <li>OD280/OD315 de vinos diluidos: La densidad óptica de los vinos diluidos, una medida de la densidad del color.</li>
+  <li>Proline: La concentración de prolina, un aminoácido, en el vino.</li>
 </ul>
 
-<p>These features represent various chemical characteristics of the wines and can be used for analysis and classification tasks.</p>
+<p>Estos rasgos representan diversas características químicas de los vinos y pueden utilizarse para tareas de análisis y clasificación.</p>
 
 <h2 id="input-data"><span class="me-2">Input Data</span><a href="#input-data" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
-<p>First of all we are going to import the dataset with some basic libraries, and see if it was loaded correctly, also give an overview of the data with their attributes.</p>
+<p>En primer lugar vamos a importar el conjunto de datos con algunas bibliotecas básicas, y ver si se cargó correctamente, y también dar una visión general de los datos con sus atributos.</p>
 
 <div class="language-python highlighter-rouge"><div class="code-header">
         <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span>
@@ -1741,12 +1751,12 @@
 <p><a href="/grupo6IA.github.io/assets/img/favicons/wine/head.png" class="popup img-link "><img data-src="/grupo6IA.github.io/assets/img/favicons/wine/head.png" alt="WineHead" class="lazyload" data-proofer-ignore></a></p>
 
 <blockquote class="prompt-tip">
-  <p><code class="language-plaintext highlighter-rouge">Click</code> the image to watch it fullscreen.</p>
+  <p><code class="language-plaintext highlighter-rouge">Click</code> en la imagen para verla a pantalla completa.</p>
 </blockquote>
 
 <h2 id="data-analysis"><span class="me-2">Data Analysis</span><a href="#data-analysis" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
-<p>Once we already verify that all things all correct, we can jump on some characteristics that this dataset have.</p>
+<p>Una vez que ya hemos comprobado que todo está correcto, podemos saltar a algunas características que tiene este conjunto de datos.</p>
 
 <div class="language-python highlighter-rouge"><div class="code-header">
         <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span>
@@ -1767,7 +1777,7 @@
 
 <p><a href="/grupo6IA.github.io/assets/img/favicons/wine/info.png" class="popup img-link "><img data-src="/grupo6IA.github.io/assets/img/favicons/wine/info.png" alt="WineInfo" class="lazyload" data-proofer-ignore></a></p>
 
-<p>From this tables we can extract some useful information. Firstly, that this dataset hasn’t have any missing values, so that makes the job easier. Additionally, we can see that the ranges of the different attributes have a lot of variances between each other, this might be a problem when we train this set because features such as “Magnesium” will have a lot of weight compared to “Nonflavanoid phenols” or “Hue”. We can solve this problem by using a type of transformation, to know which transformation, we must analyze the distribution of the data.</p>
+<p>De estas tablas podemos extraer alguna información útil. En primer lugar, que este conjunto de datos no tiene valores faltantes, lo que facilita el trabajo. Además, podemos ver que los rangos de los diferentes atributos tienen muchas varianzas entre sí, esto podría ser un problema cuando entrenemos este conjunto porque características como “Magnesium” tendrán mucho peso en comparación con “Nonflavanoid phenols” o “Hue”. Podemos solucionar este problema utilizando un tipo de transformación, para saber qué transformación, debemos analizar la distribución de los datos.</p>
 
 <div class="language-python highlighter-rouge"><div class="code-header">
         <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span>
@@ -1797,7 +1807,7 @@
 
 <p><a href="/grupo6IA.github.io/assets/img/favicons/wine/histograms.png" class="popup img-link "><img data-src="/grupo6IA.github.io/assets/img/favicons/wine/histograms.png" alt="WineHistograms" class="lazyload" data-proofer-ignore></a></p>
 
-<p>Looking at these histograms we can we that most of the features have a Gaussian distribution, therefore the best option is the z-transformation. Additionally here we can see that it is possible the existence of outliers, something that we are going to analyze further on.</p>
+<p>Observando estos histogramas podemos ver que la mayoría de las características tienen una distribución gaussiana, por lo que la mejor opción es la transformación z. Además, aquí podemos ver que es posible que existan valores atípicos, algo que vamos a analizar más adelante.</p>
 
 <div class="language-python highlighter-rouge"><div class="code-header">
         <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span>
@@ -1837,11 +1847,11 @@
 
 <p><a href="/grupo6IA.github.io/assets/img/favicons/wine/histograms2.png" class="popup img-link "><img data-src="/grupo6IA.github.io/assets/img/favicons/wine/histograms2.png" alt="WineHistograms2" class="lazyload" data-proofer-ignore></a></p>
 
-<p>Now that the data have mean of 0 and standard deviation of 1, we will have much better results!</p>
+<p>Ahora que los datos tienen una media de 0 y una desviación estándar de 1, ¡tendremos resultados mucho mejores!</p>
 
 <h2 id="outliers"><span class="me-2">Outliers</span><a href="#outliers" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
-<p>Now it’s time to analyze if there are any outliers, for that we are going to use some boxplot to view it graphically.</p>
+<p>Ahora es el momento de analizar si hay algún valor atípico, para ello vamos a utilizar algún boxplot para verlo gráficamente.</p>
 
 <div class="language-python highlighter-rouge"><div class="code-header">
         <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span>
@@ -1871,7 +1881,7 @@
 
 <p><a href="/grupo6IA.github.io/assets/img/favicons/wine/boxplot.png" class="popup img-link "><img data-src="/grupo6IA.github.io/assets/img/favicons/wine/boxplot.png" alt="WineBoxplot" class="lazyload" data-proofer-ignore></a></p>
 
-<p>Here we can see that there are some outliers in: “Malid Acid”, “Ash”, “Alcalinity of ash”, between others. But we have to be careful at moment of choosing a threshold for the outliers, if we choose a value for the threshold to low (like 1 or 1.5) we can delete a big amount of data, considering that we only have 178 rows, we have to aim for a higher threshold and remove those outliers that are further away from the majority of the data or have significantly higher values. The threshold chosen was 2.7 with the following results.</p>
+<p>Aquí podemos ver que hay algunos valores atípicos en: “Malid Acid”, “Ash”, “Alcalinity of ash”, entre otros. Pero tenemos que tener cuidado a la hora de elegir un umbral para los valores atípicos, si elegimos un valor para el umbral demasiado bajo (como 1 o 1,5) podemos eliminar una gran cantidad de datos, teniendo en cuenta que sólo tenemos 178 filas, tenemos que apuntar a un umbral más alto y eliminar aquellos valores atípicos que están más lejos de la mayoría de los datos o tienen valores significativamente más altos. El umbral elegido fue 2,7 con los siguientes resultados.</p>
 
 <div class="language-python highlighter-rouge"><div class="code-header">
         <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span>
@@ -1915,11 +1925,11 @@
 
 <p><a href="/grupo6IA.github.io/assets/img/favicons/wine/totaldesc.png" class="popup img-link "><img data-src="/grupo6IA.github.io/assets/img/favicons/wine/totaldesc.png" alt="WineTotal" class="lazyload" data-proofer-ignore></a></p>
 
-<p>Now that the data is normalized and the outliers were deleted, we can focus more on the correlation of attributes.</p>
+<p>Ahora que los datos están normalizados y se han eliminado los valores atípicos, podemos centrarnos más en la correlación de atributos.</p>
 
 <h2 id="correlated-attributes"><span class="me-2">Correlated Attributes</span><a href="#correlated-attributes" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
-<p>Attributes that are correlated could make a big difference in terms of accuracy and performance for a lot of models, that’s why we are going to focus in this topic and specifically in this correlated matrix.</p>
+<p>Los atributos que están correlacionados podrían marcar una gran diferencia en términos de precisión y rendimiento para muchos modelos, por eso vamos a centrarnos en este tema y específicamente en esta matriz de correlación.</p>
 
 <div class="language-python highlighter-rouge"><div class="code-header">
         <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span>
@@ -1931,32 +1941,32 @@
 
 <p><a href="/grupo6IA.github.io/assets/img/favicons/wine/matrix.png" class="popup img-link "><img data-src="/grupo6IA.github.io/assets/img/favicons/wine/matrix.png" alt="WineMatrix" class="lazyload" data-proofer-ignore></a></p>
 
-<p>We have a lot of things to analyze here. Firstly, focusing on the attribute ‘Ash,’ we can see that it has a weight of -0.05 on the label, due to this we can delete this attribute since its almost useless for the label and it will improve the performance. 
-Secondly, if we focus on weights of the label, we can clearly see that there are 3 attributes that are ±0.70 or more, which represent a lot of the variance of the label. Those are “Total phenols”, “Flavanoids” and “OD280…”, the thing with these attributes is that there are strongly correlated with each other (±0.70), this could be a problem because perhaps there are describing the same thing and is not needed 3 attributes. After thinking for a while, I came up with some solutions.</p>
+<p>Tenemos muchas cosas que analizar aquí. En primer lugar, centrándonos en el atributo ‘Ash’, podemos ver que tiene un peso de -0,05 en la variable objetivo, debido a esto podemos eliminar este atributo ya que es casi inútil para la etiqueta y mejorará el rendimiento. 
+En segundo lugar, si nos centramos en los pesos de la etiqueta, podemos ver claramente que hay 3 atributos que tienen ±0,70 o más, lo que representa gran parte de la varianza de la etiqueta. Esos son “Total phenols”, “Flavanoids” y “OD280…”, la cuestión con estos atributos es que están fuertemente correlacionados entre sí (±0.70), esto podría ser un problema porque quizás están describiendo la misma cosa y no se necesitan 3 atributos. Después de pensar un rato, se me ocurrieron algunas soluciones.</p>
 <ul>
-  <li>My first possibility was trying to merge “Total Phenols” and “Flavanoids”</li>
+  <li>Mi primera posibilidad fue intentar fusionar “Total Phenols” y “Flavanoids”.</li>
 </ul>
 
 <p><a href="/grupo6IA.github.io/assets/img/favicons/wine/fla.png" class="popup img-link "><img data-src="/grupo6IA.github.io/assets/img/favicons/wine/fla.png" alt="WineFla" class="lazyload" data-proofer-ignore></a></p>
 
-<p>As we can see not only are they correlated with each other, but also the correlation values of the other variables are very similar. For example, taking “Alcohol” as an example, “Total Phenols” has a correlation of 0.29 while “Flavanoids” has a correlation of 0.24. This trend is with all attributes.
-After making some testing merging this two (and the third later) the results show me that isn’t a good idea because it gave less accuracy that not doing anything with this problem (ignore it). That’s why I jumped for my second and third possibility.</p>
+<p>Como podemos ver, no sólo están correlacionadas entre sí, sino que además los valores de correlación de las demás variables son muy similares. Por ejemplo, tomando “Alcohol” como ejemplo, “Total Phenols” tiene una correlación de 0,29, mientras que “Flavanoides” tiene una correlación de 0,24. Esta tendencia se da con todos los atributos.
+Después de hacer algunas pruebas de fusión de estos dos (y el tercero más tarde) los resultados me muestran que no es una buena idea, ya que dio menos precisión que no hacer nada con este problema (ignorarlo). Por eso me lancé por mi segunda y tercera posibilidad.</p>
 
 <ul>
-  <li>Using a type of dimension reduction.</li>
+  <li>Usar un tipo de reducción de dimensión.</li>
 </ul>
 
-<p>The first one that I tried was PCA, since I have already made some work on it and the results were successful. I used the dataset without outliers and with the normalize data, but even that wasn’t useful, it was an improve compared to my first possibility, but it wasn’t enough. Perhaps because PCA deleted some useful information. (tested later on the document)</p>
+<p>El primero que probé fue PCA, ya que he hecho algunos trabajos sobre el mismo y los resultados fueron exitosos. Utilicé el conjunto de datos sin valores atípicos y con los datos normalizados, pero ni siquiera eso fue útil, fue una mejora en comparación con mi primera posibilidad, pero no fue suficiente. Tal vez porque PCA borrado alguna información útil. (probado más adelante en el documento)</p>
 
-<p>That’s why I decide using LDA (Linear Discriminant Analysis), one of the main characteristic of LDA is that it maximize separation between different classes in the data, which makes it a supervised technique and its goal is to find the directions in which classes are most separable. The results of using LDA were clearly much better than the other possibilities.</p>
+<p>Por eso decidí utilizar LDA (Linear Discriminant Analysis), una de las principales características de LDA es que maximiza la separación entre las diferentes clases en los datos, lo que la convierte en una técnica supervisada y con objetivo de encontrar las direcciones en las que las clases son más separables. Los resultados de utilizar LDA fueron claramente mucho mejores que los de las otras posibilidades.</p>
 
 <h2 id="model-prediction"><span class="me-2">Model Prediction</span><a href="#model-prediction" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
-<p>Now it’s time to test with different models, with PCA, with LDA and without anything.</p>
+<p>Ahora es el momento de probar con diferentes modelos, con PCA, con LDA y sin nada.</p>
 
 <h3 id="random-forest"><span class="me-2">Random Forest</span><a href="#random-forest" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 
-<p>The first one its Random Forest, which it’s an ensemble algorithm that combines multiple decision trees to improve accuracy and reduce overfitting. It’s a solid choice for many applications due to its ability to handle both categorical and numerical features, as well as dealing with imbalanced data.</p>
+<p>El primero es Random Forest, un algoritmo que combina varios árboles de decisión para mejorar la precisión y reducir el sobreajuste. Es una opción sólida para muchas aplicaciones debido a su capacidad para manejar características categóricas y numéricas, así como para tratar datos desequilibrados.</p>
 
 <div class="language-python highlighter-rouge"><div class="code-header">
         <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span>
@@ -2024,7 +2034,7 @@ After making some testing merging this two (and the third later) the results sho
 
 <h3 id="svc"><span class="me-2">SVC</span><a href="#svc" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 
-<p>The next one its SVC (Support Vector Classification). It is a versatile machine learning algorithm used for solving binary classification problems. Its primary objective is to find an optimal decision boundary that effectively separates data points belonging to different classes while maximizing the margin between them. SVC is known for its ability to handle non-linear data patterns and is widely employed in various domains, making it a fundamental tool in the field of machine learning and data science.</p>
+<p>El siguiente es SVC (Support Vector Classification). Se trata de un algoritmo versátil de aprendizaje automático utilizado para resolver problemas de clasificación binaria. Su objetivo principal es encontrar un límite de decisión óptimo que separe eficazmente los puntos de datos que pertenecen a clases diferentes, maximizando al mismo tiempo el margen entre ellos. El SVC es conocido por su capacidad para manejar patrones de datos no lineales y se emplea ampliamente en diversos ámbitos, lo que lo convierte en una herramienta fundamental en el campo del aprendizaje automático y la ciencia de datos.</p>
 
 <div class="language-python highlighter-rouge"><div class="code-header">
         <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span>
@@ -2093,7 +2103,7 @@ After making some testing merging this two (and the third later) the results sho
 
 <h3 id="knn"><span class="me-2">KNN</span><a href="#knn" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 
-<p>And lastly, KNN (K-Nearest Neighbors). It works by finding the k closest data points to a given one and making predictions based on their majority class (for classification) or their average (for regression). KNN is simple, doesn’t assume data distributions, and is widely applied in pattern recognition and data analysis.</p>
+<p>Y por último, KNN (K-Nearest Neighbors). Funciona encontrando los k puntos de datos más cercanos a uno dado y haciendo predicciones basadas en su clase mayoritaria (para clasificación) o su media (para regresión). KNN es sencillo, no asume distribuciones de datos y se aplica ampliamente en el reconocimiento de patrones y el análisis de datos.</p>
 
 <div class="language-python highlighter-rouge"><div class="code-header">
         <span data-label-text="Python"><i class="fas fa-code fa-fw small"></i></span>
@@ -2161,9 +2171,9 @@ After making some testing merging this two (and the third later) the results sho
 
 <p><a href="/grupo6IA.github.io/assets/img/favicons/wine/knn.png" class="popup img-link "><img data-src="/grupo6IA.github.io/assets/img/favicons/wine/knn.png" alt="WineKNN" class="lazyload" data-proofer-ignore></a></p>
 
-<h2 id="conclusion"><span class="me-2">Conclusion</span><a href="#conclusion" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<h2 id="conclusión"><span class="me-2">Conclusión</span><a href="#conclusión" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
-<p>This document presents a comprehensive analysis of the Wine dataset, commencing with a thorough examination of the data and addressing the intricacies of correlated attributes. Throughout our exploration, we have evaluated various strategies, ultimately discerning that KNN and SVC emerged as the top-performing models. However, we must approach these results with caution. It’s noteworthy that LDA didn’t miss any predictions, particularly in models like SVC. This could be an indication of an overfitting model. While it might be acceptable in this instance due to the dataset’s size and features, in the future, to sustain the model’s performance, retraining might be necessary to ensure more precise and accurate results. But we observed that dimensionality reduction using LDA yielded superior results when compared to alternative techniques.</p>
+<p>Este documento presenta un análisis exhaustivo del conjunto de datos Wine, comenzando con un examen minucioso de los datos y abordando las complejidades de los atributos correlacionados. A lo largo de nuestra exploración, hemos evaluado varias estrategias y, en última instancia, hemos llegado a la conclusión de que KNN y SVC son los modelos con mejores resultados. Sin embargo, debemos abordar estos resultados con cautela. Cabe destacar que LDA no falló en ninguna predicción, especialmente en modelos como SVC. Esto podría indicar que el modelo está sobreajustado. Aunque podría ser aceptable en este caso debido al tamaño y las características del conjunto de datos, en el futuro, para mantener el rendimiento del modelo, podría ser necesario un reentrenamiento para garantizar resultados más precisos y exactos. Sin embargo, hemos observado que la reducción de la dimensionalidad mediante LDA ha dado mejores resultados que otras técnicas alternativas.</p>
 
 </div>
 
@@ -2173,7 +2183,7 @@ After making some testing merging this two (and the third later) the results sho
     <div class="post-meta mb-3">
       <i class="far fa-folder-open fa-fw me-1"></i>
       
-        <a href="/grupo6IA.github.io/categories/classification/">Classification</a>
+        <a href="/grupo6IA.github.io/categories/clasificaci%C3%B3n/">Clasificación</a>
     </div>
   
 
@@ -2230,7 +2240,7 @@ After making some testing merging this two (and the third later) the results sho
     
       
       <a
-        href="https://twitter.com/intent/tweet?text=Wine%20-%20Predicting%20Class%20-%20ML%20Portfolio&url=http%3A%2F%2Flocalhost%3A4000%2Fgrupo6IA.github.io%2Fposts%2Fwine%2F"
+        href="https://twitter.com/intent/tweet?text=Vino%20-%20Predecir%20la%20clase%20-%20ML%20Portfolio&url=http%3A%2F%2Flocalhost%3A4000%2Fgrupo6IA.github.io%2Fposts%2Fwine%2F"
         data-bs-toggle="tooltip"
         data-bs-placement="top"
         title="Twitter"
@@ -2243,7 +2253,7 @@ After making some testing merging this two (and the third later) the results sho
     
       
       <a
-        href="https://www.facebook.com/sharer/sharer.php?title=Wine%20-%20Predicting%20Class%20-%20ML%20Portfolio&u=http%3A%2F%2Flocalhost%3A4000%2Fgrupo6IA.github.io%2Fposts%2Fwine%2F"
+        href="https://www.facebook.com/sharer/sharer.php?title=Vino%20-%20Predecir%20la%20clase%20-%20ML%20Portfolio&u=http%3A%2F%2Flocalhost%3A4000%2Fgrupo6IA.github.io%2Fposts%2Fwine%2F"
         data-bs-toggle="tooltip"
         data-bs-placement="top"
         title="Facebook"
@@ -2256,7 +2266,7 @@ After making some testing merging this two (and the third later) the results sho
     
       
       <a
-        href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fgrupo6IA.github.io%2Fposts%2Fwine%2F&text=Wine%20-%20Predicting%20Class%20-%20ML%20Portfolio"
+        href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fgrupo6IA.github.io%2Fposts%2Fwine%2F&text=Vino%20-%20Predecir%20la%20clase%20-%20ML%20Portfolio"
         data-bs-toggle="tooltip"
         data-bs-placement="top"
         title="Telegram"
@@ -2359,22 +2369,6 @@ After making some testing merging this two (and the third later) the results sho
     
     
     
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-    
   
     
     
@@ -2394,6 +2388,105 @@ After making some testing merging this two (and the third later) the results sho
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
       
         
         
@@ -2409,6 +2502,175 @@ After making some testing merging this two (and the third later) the results sho
     
     
     
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
     
   
     
@@ -2436,19 +2698,34 @@ After making some testing merging this two (and the third later) the results sho
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
-        <a class="post-tag btn btn-outline-primary" href="/grupo6IA.github.io/tags/data-visualization/">Data Visualization</a>
-      
-        
         <a class="post-tag btn btn-outline-primary" href="/grupo6IA.github.io/tags/data-cleaning/">Data Cleaning</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/grupo6IA.github.io/tags/multiclass-classification/">Multiclass Classification</a>
+        <a class="post-tag btn btn-outline-primary" href="/grupo6IA.github.io/tags/data-visualization/">Data Visualization</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/grupo6IA.github.io/tags/naive-bayes/">Naive Bayes</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/grupo6IA.github.io/tags/rapid-miner/">Rapid Miner</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/grupo6IA.github.io/tags/binary-classification/">Binary Classification</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/grupo6IA.github.io/tags/resampling/">Resampling</a>
+        <a class="post-tag btn btn-outline-primary" href="/grupo6IA.github.io/tags/clasificaci%C3%B3n-multiclase/">Clasificación Multiclase</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/grupo6IA.github.io/tags/knn/">KNN</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/grupo6IA.github.io/tags/logistic-regression/">Logistic Regression</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/grupo6IA.github.io/tags/multiclass-classification/">Multiclass Classification</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/grupo6IA.github.io/tags/remuestreo/">Remuestreo</a>
       
     </div>
   </section>
@@ -2500,6 +2777,30 @@ After making some testing merging this two (and the third later) the results sho
 
 
 
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 
   
 
@@ -2584,7 +2885,7 @@ The Titanic dataset presents an intriguing opportunity for data exploration, in 
         </article>
       
         <article class="col">
-          <a href="/grupo6IA.github.io/posts/stellar/" class="post-preview card h-100">
+          <a href="/grupo6IA.github.io/posts/census/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -2598,14 +2899,14 @@ The Titanic dataset presents an intriguing opportunity for data exploration, in 
   
     class="small"
   
-  data-ts="1696820400"
+  data-ts="1698116400"
   data-df="ll"
   
 >
-  Oct  9, 2023
+  Oct 24, 2023
 </time>
 
-              <h4 class="pt-0 my-2">Stellar Classification - SDSS17</h4>
+              <h4 class="pt-0 my-2">Census</h4>
               <div class="text-muted small">
                 <p>
                   
@@ -2614,9 +2915,47 @@ The Titanic dataset presents an intriguing opportunity for data exploration, in 
 
 
 
-                  Stellar Classification - SDSS17
+                  Census
+El conjunto de datos del censo de Estados Unidos de 1994, compilado por Barry Becker, es una valiosa fuente de información para analizar la demografía y la economía de ese período en el país...
+                </p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/grupo6IA.github.io/posts/ckd/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
 
-Since I was a child, one of the topics I’ve always been fascinated by is space. The vastness of the universe, the mysteries of the galaxies, and the beauty of the n...
+
+
+
+<time
+  
+    class="small"
+  
+  data-ts="1698116400"
+  data-df="ll"
+  
+>
+  Oct 24, 2023
+</time>
+
+              <h4 class="pt-0 my-2">CKD</h4>
+              <div class="text-muted small">
+                <p>
+                  
+
+
+
+
+
+                  CKD
+Aproximadamente el 10% de la población mundial tiene algún grado de enfermedad renal; Lamentablemente pasa desapercibido porque sus síntomas aparecen muy tarde. Sus principales factores de ries...
                 </p>
               </div>
             </div>
@@ -2652,7 +2991,7 @@ Since I was a child, one of the topics I’ve always been fascinated by is space
       class="btn btn-outline-primary"
       aria-label="Newer"
     >
-      <p>Stellar Classification - SDSS17</p>
+      <p>Clasificación Estelar - SDSS17</p>
     </a>
   
 </nav>
@@ -2744,22 +3083,6 @@ Since I was a child, one of the topics I’ve always been fascinated by is space
     
     
     
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-    
   
     
     
@@ -2779,6 +3102,105 @@ Since I was a child, one of the topics I’ve always been fascinated by is space
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
       
         
         
@@ -2794,6 +3216,175 @@ Since I was a child, one of the topics I’ve always been fascinated by is space
     
     
     
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
     
   
     
@@ -2821,19 +3412,34 @@ Since I was a child, one of the topics I’ve always been fascinated by is space
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
-        <a class="post-tag btn btn-outline-primary" href="/grupo6IA.github.io/tags/data-visualization/">Data Visualization</a>
-      
-        
         <a class="post-tag btn btn-outline-primary" href="/grupo6IA.github.io/tags/data-cleaning/">Data Cleaning</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/grupo6IA.github.io/tags/multiclass-classification/">Multiclass Classification</a>
+        <a class="post-tag btn btn-outline-primary" href="/grupo6IA.github.io/tags/data-visualization/">Data Visualization</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/grupo6IA.github.io/tags/naive-bayes/">Naive Bayes</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/grupo6IA.github.io/tags/rapid-miner/">Rapid Miner</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/grupo6IA.github.io/tags/binary-classification/">Binary Classification</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/grupo6IA.github.io/tags/resampling/">Resampling</a>
+        <a class="post-tag btn btn-outline-primary" href="/grupo6IA.github.io/tags/clasificaci%C3%B3n-multiclase/">Clasificación Multiclase</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/grupo6IA.github.io/tags/knn/">KNN</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/grupo6IA.github.io/tags/logistic-regression/">Logistic Regression</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/grupo6IA.github.io/tags/multiclass-classification/">Multiclass Classification</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/grupo6IA.github.io/tags/remuestreo/">Remuestreo</a>
       
     </div>
   </section>
