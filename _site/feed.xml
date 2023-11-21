@@ -4,7 +4,7 @@
   <id>http://localhost:4000/grupo6IA.github.io/</id>
   <title>ML Portfolio</title>
   <subtitle>An ML Portfolio of varius study projects.</subtitle>
-  <updated>2023-10-18T18:07:29-03:00</updated>
+  <updated>2023-11-21T18:08:57-03:00</updated>
   <author>
     <name>Grupo 6</name>
     <uri>http://localhost:4000/grupo6IA.github.io/</uri>
@@ -20,8 +20,80 @@
 
   
   <entry>
-    <title>Stellar Classification - SDSS17</title>
-    <link href="http://localhost:4000/grupo6IA.github.io/posts/stellar/" rel="alternate" type="text/html" title="Stellar Classification - SDSS17" />
+    <title>CKD</title>
+    <link href="http://localhost:4000/grupo6IA.github.io/posts/ckd/" rel="alternate" type="text/html" title="CKD" />
+    <published>2023-10-24T00:00:00-03:00</published>
+  
+    <updated>2023-10-24T00:00:00-03:00</updated>
+  
+    <id>http://localhost:4000/grupo6IA.github.io/posts/ckd/</id>
+    <content src="http://localhost:4000/grupo6IA.github.io/posts/ckd/" />
+    <author>
+      <name>Sebastian Fripp</name>
+    </author>
+
+  
+    
+    <category term="Clasificación" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      CKD
+Aproximadamente el 10% de la población mundial tiene algún grado de enfermedad renal; Lamentablemente pasa desapercibido porque sus síntomas aparecen muy tarde. Sus principales factores de riesgo para desarrollarla, como hipertensión arterial, diabetes, obesidad, antecedentes familiares de enfermedad renal y edad mayor de 60 años, son muy prevalentes a nivel mundial.
+
+Debido a su alto costo...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Census</title>
+    <link href="http://localhost:4000/grupo6IA.github.io/posts/census/" rel="alternate" type="text/html" title="Census" />
+    <published>2023-10-24T00:00:00-03:00</published>
+  
+    <updated>2023-10-24T00:00:00-03:00</updated>
+  
+    <id>http://localhost:4000/grupo6IA.github.io/posts/census/</id>
+    <content src="http://localhost:4000/grupo6IA.github.io/posts/census/" />
+    <author>
+      <name>Sebastian Fripp</name>
+    </author>
+
+  
+    
+    <category term="Clasificación" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Census
+El conjunto de datos del censo de Estados Unidos de 1994, compilado por Barry Becker, es una valiosa fuente de información para analizar la demografía y la economía de ese período en el país. Este conjunto de datos incluye una amplia variedad de características individuales, como edad, sexo, nivel educativo, ocupación, estado civil y más. El objetivo de este conjunto de datos es predecir...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Clasificación Estelar - SDSS17</title>
+    <link href="http://localhost:4000/grupo6IA.github.io/posts/stellar/" rel="alternate" type="text/html" title="Clasificación Estelar - SDSS17" />
     <published>2023-10-09T00:00:00-03:00</published>
   
     <updated>2023-10-09T00:00:00-03:00</updated>
@@ -34,7 +106,7 @@
 
   
     
-    <category term="Classification" />
+    <category term="Clasificación" />
     
   
 
@@ -48,7 +120,7 @@
 
       Stellar Classification - SDSS17
 
-Since I was a child, one of the topics I’ve always been fascinated by is space. The vastness of the universe, the mysteries of the galaxies, and the beauty of the night sky has always kept my curiosity. In the world of astronomy, one of the fundamental tasks is the classification of celestial objects, and the “Stellar Classification Dataset - SDSS17” provides an...
+Uno de los temas que siempre han fascinado es el espacio. La inmensidad del universo, los misterios de las galaxias y la belleza del cielo nocturno siempre han mantenido la curiosidad de la humanidad. En el mundo de la astronomía, una de las tareas fundamentales es la clasificación de los objetos celestes, y el “Stellar Classification Dataset - SDSS17” ofrece un...
     </summary>
   
 
@@ -56,8 +128,8 @@ Since I was a child, one of the topics I’ve always been fascinated by is space
 
   
   <entry>
-    <title>Wine - Predicting Class</title>
-    <link href="http://localhost:4000/grupo6IA.github.io/posts/wine/" rel="alternate" type="text/html" title="Wine - Predicting Class" />
+    <title>Vino - Predecir la clase</title>
+    <link href="http://localhost:4000/grupo6IA.github.io/posts/wine/" rel="alternate" type="text/html" title="Vino - Predecir la clase" />
     <published>2023-10-04T00:00:00-03:00</published>
   
     <updated>2023-10-04T00:00:00-03:00</updated>
@@ -70,7 +142,7 @@ Since I was a child, one of the topics I’ve always been fascinated by is space
 
   
     
-    <category term="Classification" />
+    <category term="Clasificación" />
     
   
 
@@ -82,9 +154,9 @@ Since I was a child, one of the topics I’ve always been fascinated by is space
 
 
 
-      Wine - Predicting Class
+      Vino - Predecir la clase
 
-This is a wine dataset donated in 1991 with the purpose of testing some IA tools, it has the objective of determinate the origin of the wines using a chemical analysis. With 178 instances and 13 features it contains the results of a chemical analysis of wines grown in the same region in Italy but derived from three different cultivars. The analysis determined the quanti...
+En esta ocación se trata de un conjunto de datos sobre vinos donado en 1991 con el fin de probar algunas herramientas de AI, cuyo objetivo es determinar el origen de los vinos mediante un análisis químico. Con 178 instancias y 13 características, contiene los resultados de un análisis químico de vinos cultivados en la misma región de Italia pero derivados de tres viñed...
     </summary>
   
 
@@ -106,7 +178,7 @@ This is a wine dataset donated in 1991 with the purpose of testing some IA tools
 
   
     
-    <category term="Classification" />
+    <category term="Clasificación" />
     
   
 
