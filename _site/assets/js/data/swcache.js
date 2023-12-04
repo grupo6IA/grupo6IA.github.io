@@ -17,7 +17,7 @@ const resource = [
   
     '/grupo6IA.github.io/archives/',
   
-    '/grupo6IA.github.io/teorico/',
+    '/grupo6IA.github.io/info/',
   
     '/grupo6IA.github.io/about/',
   
@@ -69,6 +69,7 @@ const resource = [
     '/grupo6IA.github.io/assets/img/favicons/favicon-16x16.png',
     '/grupo6IA.github.io/assets/img/favicons/favicon-32x32.png',
     '/grupo6IA.github.io/assets/img/favicons/favicon.ico',
+    '/grupo6IA.github.io/assets/img/favicons/infoo/data.jpg',
     '/grupo6IA.github.io/assets/img/favicons/mlgod.jpg',
     '/grupo6IA.github.io/assets/img/favicons/mstile-150x150.png',
     '/grupo6IA.github.io/assets/img/favicons/stellar/LRegg.png',
